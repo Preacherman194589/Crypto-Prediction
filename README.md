@@ -8,7 +8,6 @@ Using machine learning model, we hope to create a way to predict crypto market d
 - G-Reaserch (Europe’s leading quantitative finance research firm)
 
 ## Question we hope to answer with the data
-- Determine the top five most purchased cryptocurrency
 - Which among the fourteen popular assets will give the highest return?
 - How much is it going to increase in one year from current price market?**
 - Which coin/assets would be more stable?
