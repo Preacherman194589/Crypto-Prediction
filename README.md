@@ -1,5 +1,5 @@
-# Crypto-Forecasting-
-![image](https://user-images.githubusercontent.com/106962921/194949263-c9d7e72d-d7e9-4730-a142-2482647cc85a.png)
+# Crypto-Forecasting
+![](Images/cryptocurrency-6791069_1280.png)
 
 ## Reason for the Selected Topic
 Using machine learning model, we hope to create a way to predict crypto market data. We will assess and analyze historical data of fourteen most popular cryptocurrencies and compare the findings to real world market data.
