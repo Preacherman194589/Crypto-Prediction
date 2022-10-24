@@ -1,11 +1,12 @@
 # Crypto-Forecasting-
+![](Images/cryptocurrency-6791069_1280.png)
 
 ## Reason for the Selected Topic
 Using machine learning model, we hope to create a way to predict crypto market data. We will assess and analyze historical data of fourteen most popular cryptocurrencies and compare the findings to real world market data.
 
 ## Description of Source Data
 - Kaggle 
-- G-Reaserch (Europe’s leading quantitative finance research firm)
+- G-Research (Europe’s leading quantitative finance research firm)
 
 ## Question we hope to answer with the data
 - Which among the fourteen popular assets will give the highest return?
@@ -14,17 +15,16 @@ Using machine learning model, we hope to create a way to predict crypto market d
 - Which Machine Learning Model is best model for the dataset?
 
 ## Machine Learning Model
-- Logistic Regression
+- Linear Regression Model
 - Support Vector Machine Learning Model
-- Deep Learning Model
-- Random Forest
+- Random Forest Model
+- Deep Learning Model 
 
 ## Database Integration
 
 ## Tools
 - PostgreSQL
 - Amazon Web Services (AWS)
-- PostgreSQL
 - Jupyter Notebook
 - Tableau Public
 
