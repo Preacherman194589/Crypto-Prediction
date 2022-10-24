@@ -15,7 +15,7 @@ Using machine learning model, we hope to create a way to predict crypto market d
 - Which Machine Learning Model is best model for the dataset?
 
 ## Machine Learning Model
-- Logistic Regression
+- Linear Regression 
 - Support Vector Machine Learning Model
 - Deep Learning Model
 - Random Forest
@@ -25,7 +25,6 @@ Using machine learning model, we hope to create a way to predict crypto market d
 ## Tools
 - PostgreSQL
 - Amazon Web Services (AWS)
-- PostgreSQL
 - Jupyter Notebook
 - Tableau Public
 
