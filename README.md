@@ -24,7 +24,7 @@ Using machine learning model, we hope to create a way to predict crypto market d
 ## Database Integration
 
 ## Tools
-- PostgreSQL [!](<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />)
+- PostgreSQL <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
 - Amazon Web Services (AWS)
 - Jupyter Notebook
 - Tableau Public
