@@ -5,8 +5,8 @@
 Using machine learning model, we hope to create a way to predict crypto market data. We will assess and analyze historical data of fourteen most popular cryptocurrencies and compare the findings to real world market data.
 
 ## Description of Source Data
-- Kaggle 
-- G-Reaserch (Europe’s leading quantitative finance research firm)
+- [Kaggle](https://www.kaggle.com/competitions/g-research-crypto-forecasting/data) 
+- [G-Reaserch (Europe’s leading quantitative finance research firm)](https://www.gresearch.co.uk/)
 
 ## Question we hope to answer with the data
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
@@ -24,7 +24,7 @@ Using machine learning model, we hope to create a way to predict crypto market d
 ## Database Integration
 
 ## Tools
-- PostgreSQL
+- PostgreSQL [!](<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />)
 - Amazon Web Services (AWS)
 - Jupyter Notebook
 - Tableau Public
