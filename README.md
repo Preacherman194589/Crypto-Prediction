@@ -6,7 +6,8 @@ Using machine learning model, we hope to create a way to predict crypto market d
 
 ## Description of Source Data
 - [Kaggle](https://www.kaggle.com/competitions/g-research-crypto-forecasting/data) 
-- [G-Reaserch (Europe’s leading quantitative finance research firm)](https://www.gresearch.co.uk/)
+> The dataset contains historical trades on several cryptoassets such as Ethereum, Dogecoin, Bitcoin, Cardano and more.
+- [G-Reaserch (Europe’s leading quantitative finance research firm)](https://www.gresearch.co.uk/) is a quantitative finance research firm in Europe. They utilized machine learning, big data and the most advanced technology to predict movements in the financial markets.
 
 ## Question we hope to answer with the data
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
