@@ -12,7 +12,7 @@ Using machine learning model, we hope to create a way to predict crypto market d
 - Which among the five popular assets will give the highest return? (Binance Coin, Bitcoin, Ethereum, Litecoin, Monero)
 - How much is it going to increase in the near future from current price market?
 - Which coin/assets would be more stable?
-- Which Machine Learning Model is best predict the dataset?
+- Which Machine Learning Model is best predict the dataset? 
 
 ## Machine Learning Model 
 Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
@@ -20,7 +20,7 @@ Taking in a set of factors, we are going to use different machine learning model
 - Support Vector Machine Learning Model - to determine if best model to predict crypto market data
 - Deep Learning Model - to determine if best model to predict crypto market data
 - Random Forest - to determine if best model to predict crypto market data
-- XGBoost 
+- XGBoost - an efficient implementation of gradient boosting that can be used for regression predictive modeling.
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
