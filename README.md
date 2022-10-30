@@ -1,4 +1,4 @@
-# Crypto-Forecasting
+# Crypto_Forecasting
 ![](Images/cryptocurrency-6791069_1280.png)
 
 ## Reason for the Selected Topic
@@ -10,12 +10,12 @@ Using machine learning model, we hope to create a way to predict crypto market d
 
 ## Question we hope to answer with the data
 - Which among the five popular assets will give the highest return? (Binance Coin, Bitcoin, Ethereum, Litecoin, Monero)
-- How much is it going to increase in one year from current price market?**
+- How much is it going to increase in the near future from current price market?
 - Which coin/assets would be more stable?
-- Which Machine Learning Model is best model for the dataset?
+- Which Machine Learning Model is best predict the dataset?
 
 ## Machine Learning Model 
-Using different machine learning model to predict numerical value. 
+Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
 - Linear Regression - to predict continous variables  
 - Support Vector Machine Learning Model - to determine if best model to predict crypto market data
 - Deep Learning Model - to determine if best model to predict crypto market data
@@ -34,5 +34,3 @@ Using different machine learning model to predict numerical value.
 
 ## Communication Protocols
 The team regularly communicates via Slack and team meeting outside of class hours at least once a week.
-
-
