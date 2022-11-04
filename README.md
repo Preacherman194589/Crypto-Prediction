@@ -16,9 +16,11 @@ Using machine learning model, we hope to create a way to predict crypto market d
 
 ## Machine Learning Model 
 Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
-- Linear Regression - to predict continous variables  
+- Linear Regression - to predict continuous variables  
 - XGBooster Model - to determine if best model to predict crypto market data
-- Random Forest - to determine if best model to predict crypto market data
+- Random Forest: 	
+	- Advantages: 
+	- Limitations: Random Forest cannot extrapolate and can only make a prediction that is an average of previously observed labels
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
@@ -33,3 +35,4 @@ Taking in a set of factors, we are going to use different machine learning model
 
 ## Communication Protocols
 The team regularly communicates via Slack and team meeting outside of class hours at least once a week.
+
