@@ -35,7 +35,7 @@ Taking in a set of factors, we are going to use different machine learning model
 - Amazon Web Services (AWS)
 - Jupyter Notebook
 - [Tableau Public](https://public.tableau.com/views/Crypto-Forcasting/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
-- [Google Slides](https://github.com/Preacherman194589/Crypto-Forecasting-.git)
+- [Google Slides](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
 
 ## Communication Protocols
 The team regularly communicates via Slack and team meeting outside of class hours at least once a week.
