@@ -16,7 +16,9 @@ Using machine learning model, we hope to create a way to predict crypto market d
 
 ## Machine Learning Model 
 Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
-- Linear Regression - to predict continuous variables  
+- Linear Regression - to predict continuous variables 
+        - Advantages: process very fast
+	- Limitations: the accuracy of predictions are lower than other models
 - XGBooster Model - to determine if best model to predict crypto market data
 - Random Forest: 	
 	- Advantages: 
