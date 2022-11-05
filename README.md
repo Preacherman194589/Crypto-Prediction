@@ -24,13 +24,14 @@ Taking in a set of factors, we are going to use different machine learning model
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
 
+## Data Frame
 ![image](https://user-images.githubusercontent.com/106962921/198488757-9adccb79-8396-4045-a616-59cd39016f88.png)
 
 ## Tools
 - PostgreSQL
 - Amazon Web Services (AWS)
 - Jupyter Notebook
-- Tableau Public
+- [Tableau Public](https://public.tableau.com/views/Crypto-Forcasting/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Communication Protocols
 The team regularly communicates via Slack and team meeting outside of class hours at least once a week.
