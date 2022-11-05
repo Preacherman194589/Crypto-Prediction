@@ -21,8 +21,8 @@ Taking in a set of factors, we are going to use different machine learning model
 	- Limitations: the accuracy of predictions are lower than other models
 - XGBooster Model - to determine if best model to predict crypto market data
 - Random Forest: 	
-	- Advantages: 
-	- Limitations: Random Forest cannot extrapolate and can only make a prediction that is an average of previously observed labels
+	- Advantages: This model is great for Classification and Regression tasks.
+	- Limitations: Random Forest cannot extrapolate and can only make a prediction that is an average of previously observed labels. The run-time performance of this model is very slow.
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
