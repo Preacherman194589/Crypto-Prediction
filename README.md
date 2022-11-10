@@ -17,26 +17,51 @@ Using machine learning model, we hope to create a way to predict crypto market d
 ## Machine Learning Model 
 Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
 - Linear Regression:
-	- Advantages: process very fast
-	- Limitations: the accuracy of predictions are lower than other models
-- XGBooster Model - to determine if best model to predict crypto market data
-- Random Forest: 	
-	- Advantages: This model is great for Classification and Regression tasks.
-	- Limitations: Random Forest cannot extrapolate and can only make a prediction that is an average of previously observed labels. The run-time performance of this model is very slow.
+	- Description of data preprocessing:
+	- Description of feature engineering and the feature selection, including the decision-making process:
+	- Description of how data was split intro training and testing sets:
+	- Explanation of model choice, including limitations and benefits:
+		- Advantages: process very fast
+		- Limitations: the accuracy of predictions are lower than other models
+	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	- Description of how they have trained the model thus far, and any additional training that will take place:
+	- Description of current accuracy score
+- XGBooster Model:
+	- Description of data preprocessing:
+	- Description of feature engineering and the feature selection, including the decision-making process:
+	- Description of how data was split intro training and testing sets:
+	- Explanation of model choice, including limitations and benefits:
+		- Advantages: process very fast
+		- Limitations: the accuracy of predictions are lower than other models
+	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	- Description of how they have trained the model thus far, and any additional training that will take place:
+	- Description of current accuracy score
+- Random Forest:
+	- Description of data preprocessing:
+	- Description of feature engineering and the feature selection, including the decision-making process:
+	- Description of how data was split intro training and testing sets:
+	- Explanation of model choice, including limitations and benefits:
+		- Advantages: This model is great for Classification and Regression tasks.
+		- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously observed labels. 
+	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	- Description of how they have trained the model thus far, and any additional training that will take place:
+	- Description of current accuracy score
+	
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
+
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
 
 ## Data Frame
 ![image](https://user-images.githubusercontent.com/106962921/198488757-9adccb79-8396-4045-a616-59cd39016f88.png)
 
+## Dashboard
+The dashboard was built using [Tableau Public](https://public.tableau.com/views/Crypto-Forcasting/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ## Tools
 - PostgreSQL
 - Amazon Web Services (AWS)
 - Jupyter Notebook
-- [Tableau Public](https://public.tableau.com/views/Crypto-Forcasting/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
+- Tableau Public
 - [Google Slides](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
-
-## Communication Protocols
-The team regularly communicates via Slack and team meeting outside of class hours at least once a week.
 
