@@ -2,7 +2,7 @@
 ![](Images/cryptocurrency-6791069_1280.png)
 
 ## Reason for the Selected Topic
-Using machine learning model, we hope to create a way to predict crypto market data. We will assess and analyze historical data of fourteen most popular cryptocurrencies and compare the findings to real world market data.
+Due to dramatic changes in the world financial environment, cryptocurrencies have gained popularity as one of the alternative investment available to most. The volatility of cryptocurrency assets, would be a bit of a challenge to predict prices changes. Using machine learning model, we hope to create a way to predict crypto market data. We will assess and analyze historical data of six most popular cryptocurrencies and compare the findings to real world market data.
 
 ## Description of Source Data
 - [Kaggle](https://www.kaggle.com/competitions/g-research-crypto-forecasting/data) The dataset contains historical trades on several cryptoassets such as Ethereum, Dogecoin, Bitcoin, Cardano and more.
@@ -15,31 +15,29 @@ Using machine learning model, we hope to create a way to predict crypto market d
 
 
 ## Machine Learning Model 
-Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
+- Description of data preprocessing:
+	- An assessment was performed to determine if there are missing data. This was remedied by either removing the NaN rows or filling in the gaps as was performed since the data is a time series dataset.
+	- Visualizations were created to view trends and correlations. 
+- Description of feature engineering and the feature selection, including the decision-making process:
+	- 
+- Description of how data was split intro training and testing sets:
+	- A split of 80-20 of training-test sets was performed on the date. One year worth of data was used to train the model and three months was used to test the model.
+	
 - Linear Regression:
-	- Description of data preprocessing:
-	- Description of feature engineering and the feature selection, including the decision-making process:
-	- Description of how data was split intro training and testing sets:
 	- Explanation of model choice, including limitations and benefits:
-		- Advantages: process very fast
-		- Limitations: the accuracy of predictions are lower than other models
+		- Advantages: Model process very fast.
+		- Limitations: The accuracy of predictions are lower than other models.
 	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
-	- Description of how they have trained the model thus far, and any additional training that will take place:
-	- Description of current accuracy score
+	- Description of how the model have been trained thus far, and any additional training that will take place:
+	- Description of current accuracy score:
 - XGBooster Model:
-	- Description of data preprocessing:
-	- Description of feature engineering and the feature selection, including the decision-making process:
-	- Description of how data was split intro training and testing sets:
 	- Explanation of model choice, including limitations and benefits:
-		- Advantages: process very fast
-		- Limitations: the accuracy of predictions are lower than other models
+		- Advantages: 
+		- Limitations: 
 	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 	- Description of how they have trained the model thus far, and any additional training that will take place:
 	- Description of current accuracy score
 - Random Forest:
-	- Description of data preprocessing:
-	- Description of feature engineering and the feature selection, including the decision-making process:
-	- Description of how data was split intro training and testing sets:
 	- Explanation of model choice, including limitations and benefits:
 		- Advantages: This model is great for Classification and Regression tasks.
 		- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously observed labels. 
@@ -58,10 +56,14 @@ Taking in a set of factors, we are going to use different machine learning model
 ## Dashboard
 The dashboard was built using [Tableau Public](https://public.tableau.com/views/Crypto-Forcasting/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+## Google Slides Presentation
+The Google Slides Presentation is [here](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
+
 ## Tools
 - PostgreSQL
 - Amazon Web Services (AWS)
 - Jupyter Notebook
 - Tableau Public
-- [Google Slides](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
+- Google Slides
+- Google Colab
 
