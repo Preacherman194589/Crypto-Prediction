@@ -43,7 +43,8 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 		- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously observed labels. 
 	- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 	- Description of how they have trained the model thus far, and any additional training that will take place:
-	- Description of current accuracy score
+	- Description of current accuracy score:
+	<img width="365" alt="image" src="https://user-images.githubusercontent.com/106962921/201189400-fad4b502-aa3a-430e-aa54-e6e6d4e42972.png">
 	
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 
