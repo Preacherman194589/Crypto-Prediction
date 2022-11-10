@@ -9,10 +9,10 @@ Using machine learning model, we hope to create a way to predict crypto market d
 - [G-Reaserch](https://www.gresearch.co.uk/) is a quantitative finance research firm in Europe. They utilized machine learning, big data and the most advanced technology to predict movements in the financial markets.
 
 ## Question we hope to answer with the data
-- Which among the five popular assets will give the highest return? (Binance Coin, Bitcoin, EOS.io, Ethereum, Litecoin, Monero)
-- How much is it going to increase in the near future from current price market?
-- Which coin/assets would be more stable?
-- Which Machine Learning Model is best predict the dataset?
+- Which Machine Learning Model would best predict future price changes?
+- By how much is cryptocurrency price going to increase in the near future compared to current price market?
+- Which coin/assets would be more stable out of the six cryptocurrency chosen for this project?
+
 
 ## Machine Learning Model 
 Taking in a set of factors, we are going to use different machine learning models to predict each cryptocurrency's returns. 
@@ -52,7 +52,7 @@ Taking in a set of factors, we are going to use different machine learning model
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
 
-## Data Frame
+### Data Frame
 ![image](https://user-images.githubusercontent.com/106962921/198488757-9adccb79-8396-4045-a616-59cd39016f88.png)
 
 ## Dashboard
