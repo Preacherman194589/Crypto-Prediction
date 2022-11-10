@@ -16,10 +16,10 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 
 ## Machine Learning Model 
 - Description of data preprocessing:
-	- An assessment was performed to determine if there are missing data. This was remedied by either removing the NaN rows or filling in the gaps as was performed since the data is a time series dataset.
+	- An assessment was performed to determine if there are missing data. This was remedied by either removing the NaN rows or filling in the gaps as was performed 	since the data is a time series dataset.
 	- Visualizations were created to view trends and correlations. 
 - Description of feature engineering and the feature selection, including the decision-making process:
-	- 
+	 
 - Description of how data was split intro training and testing sets:
 	- A split of 80-20 of training-test sets was performed on the date. One year worth of data was used to train the model and three months was used to test the model.
 	
