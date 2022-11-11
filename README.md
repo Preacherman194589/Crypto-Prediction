@@ -21,7 +21,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Description of feature engineering and the feature selection, including the decision-making process:
 	 
 - Description of how data was split intro training and testing sets:
-	- A split of 80-20 of training-test sets was performed on the date. One year worth of data was used to train the model and three months was used to test the model.
+	- A split of 60-40 of training-test sets was performed on the date. One year worth of data was used to train the model and 9 months was used to test the 	models.
 	
 ### Linear Regression:
 - Explanation of model choice, including limitations and benefits:
@@ -39,14 +39,24 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Description of how they have trained the model thus far, and any additional training that will take place:
 - Description of current accuracy score
 
-### Random Forest:
+### Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: This model is great for Classification and Regression tasks.
 	- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously 	observed labels. 
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	- Added Hyperparameter tuning to the model in hopes to improve the score
 - Description of how they have trained the model thus far, and any additional training that will take place:
+	- Added Neural Network using keras and the scores improve significantly
 - Description of current accuracy score:
-<img width="365" alt="image" src="https://user-images.githubusercontent.com/106962921/201189400-fad4b502-aa3a-430e-aa54-e6e6d4e42972.png">
+	- Model without tuning:
+	<img width="365" alt="image" src="https://user-images.githubusercontent.com/106962921/201189400-fad4b502-aa3a-430e-aa54-e6e6d4e42972.png">
+
+	- Model with tuning:
+	<img width="365" alt="image" src="https://user-images.githubusercontent.com/106962921/201403255-5df44a33-05b0-41c2-a254-bd3a4fd2af7f.png">
+
+	- Model with ANN:
+	<img width="388" alt="image" src="https://user-images.githubusercontent.com/106962921/201403337-2f334fa4-78a8-47cd-b120-a44ccdb08056.png">
+
 	
 ![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 
