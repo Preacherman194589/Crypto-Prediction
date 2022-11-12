@@ -37,17 +37,18 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 ![lr score](https://user-images.githubusercontent.com/107179765/201457926-ddbd3beb-c7ab-4580-9c89-36f218e954af.png)
 
 ### 2. XGBooster Model:
+
 - Explanation of model choice, including limitations and benefits:
-	- Advantages: Highly flexible and faster than Gradient Boosting
+	- Advantages:  Highly flexible and faster than Gradient Boosting
 	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
 
-- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
-	
-	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
+-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 
-- Description of how they have trained the model thus far, and any additional training that will take place:
+        - There was no severe change in the present data (cryptocurrency). However, we did have to change the features to deliver a better score than the last two segments 
+
+- Description of how they have trained the model thus far and any additional training that will take place:
 	
-	- It appears that the Scikit-Learning API model showed a high RSME (Root-mean-square deviation) of predictional errors. When using Hyperparameter the number did improve slightly but not as mush as I would like. There are several other models that could be used 1. Field Search or 2. Randomized Search.  
+	- The Scikit-Learning API model showed a high RSME (Root-mean-square deviation) of predictional errors. When using Hyperparameter, the number did improve slightly but not as much as I would like. Several other models could be used: Field Search or Randomized Search.  
 
 - Description of current accuracy score
 - 
