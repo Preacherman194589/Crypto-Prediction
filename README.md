@@ -44,8 +44,8 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 
 -Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 
-    - There was no severe change in the present data (cryptocurrency). However, we did have to change the features to deliver a better score than the last two segments 
-        
+    - There was no severe change in the present data (cryptocurrency). However, we did have to change the features to deliver 
+      a better score than the last two segments 
 
 - Description of how they have trained the model thus far and any additional training that will take place:
 	
