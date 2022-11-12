@@ -32,11 +32,9 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):<br/>
 	- There is no changes from previous work.
 - Description of how the model have been trained thus far, and any additional training that will take place:<br/>
-	- Train the dataset of each crypto using trading data from the previous three years, and test the dataset using the last 9 months of trading data.
-	
+	- Train the dataset of each crypto using trading data from the previous three years, and test the dataset using the last 9 months of trading data.	
 - Description of current accuracy score:<br/>
 ![lr score](https://user-images.githubusercontent.com/107179765/201457926-ddbd3beb-c7ab-4580-9c89-36f218e954af.png)
-
 
 ### 2. XGBooster Model:
 - Explanation of model choice, including limitations and benefits:
@@ -47,8 +45,6 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Description of how they have trained the model thus far, and any additional training that will take place:
 	- add
 - Description of current accuracy score
-![xg score](https://user-images.githubusercontent.com/107179765/201458174-9f461b3a-da35-4554-87d4-2c70eaa08e65.png)
-
 
 ### 3. Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
@@ -70,14 +66,14 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 
 ### 4. Artificial Neural Network:
 - Explanation of model choice, including limitations and benefits:
-	- Advantages: Highly flexible and faster than Gradient Boosting
-	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
+	- Advantages: More accurate and run very fast.
+	- Limitations: Maybe easily over-fitting.
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
-	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
+	- This is new machine learning model we add in segment 3.
 - Description of how they have trained the model thus far, and any additional training that will take place:
-	- Added 
-- Description of current accuracy score
-
+	- Using two hidden layers with five neurons each and one output layer with one neuron.	
+- Description of current accuracy score<br/>
+![nn score](https://user-images.githubusercontent.com/107179765/201459334-41a821d0-8512-4c73-910f-b53d69318f34.png)
 
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
