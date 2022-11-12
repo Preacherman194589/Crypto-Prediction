@@ -12,16 +12,18 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Which Machine Learning Model would best predict future price changes?
 - By how much is cryptocurrency price going to increase in the near future compared to current price market?
 - Which coin/assets would be more stable out of the six cryptocurrency chosen for this project?
-
+- What feature affect the close price most?
 
 ## Machine Learning Model 
 - Description of data preprocessing:
-	- An assessment was performed to determine if there are missing data. This was remedied by either removing the NaN rows or filling in the gaps as was performed 	since the data is a time series dataset.
+	- An assessment was performed to determine if there are missing data. This was remedied by either removing the NaN rows or filling in the gaps as was performed since the data is a time series dataset.
+	- Convert minute-by-minute data to day-by-day data for each crypto, and merge the 6 cryptoassets DataFrame into a new DataFrame.
 	- Visualizations were created to view trends and correlations. 
+	![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
 - Description of feature engineering and the feature selection, including the decision-making process:
-	 
+	- Use "High", "Low" & "VWAP" columns in the DataFrame as features, and "Close" as target.
 - Description of how data was split intro training and testing sets:
-	- A split of 60-40 of training-test sets was performed on the date. One year worth of data was used to train the model and 9 months was used to test the 	models.
+	- A split of 80-20 of training-test sets was performed on the date. Three year worth of data was used to train the model and 9 months was used to test the models.
 	
 ### Linear Regression:
 - Explanation of model choice, including limitations and benefits:
@@ -41,6 +43,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 	- 
 - Description of current accuracy score
 
+
 ### Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: This model is great for Classification and Regression tasks.
@@ -59,8 +62,15 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 	- Model with ANN:
 	<img width="388" alt="image" src="https://user-images.githubusercontent.com/106962921/201403337-2f334fa4-78a8-47cd-b120-a44ccdb08056.png">
 
-	
-![analysis metrics](https://user-images.githubusercontent.com/107179765/197721081-94517e80-0406-445b-be75-dadd195f5fb7.png)
+### Artificial Neural Network:
+- Explanation of model choice, including limitations and benefits:
+	- Advantages: Highly flexible and faster than Gradient Boosting
+	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
+- Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
+- Description of how they have trained the model thus far, and any additional training that will take place:
+	- 
+- Description of current accuracy score
 
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
