@@ -40,11 +40,19 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: Highly flexible and faster than Gradient Boosting
 	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
+
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
+	
 	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
+
 - Description of how they have trained the model thus far, and any additional training that will take place:
+	
 	- It appears that the Scikit-Learning API model showed a high RSME (Root-mean-square deviation) of predictional errors. When using Hyperparameter the number did improve slightly but not as mush as I would like. There are several other models that could be used 1. Field Search or 2. Randomized Search.  
+
 - Description of current accuracy score
+- 
+<img width="506" alt="Screen Shot 2022-11-11 at 10 45 08 PM" src="https://user-images.githubusercontent.com/106892740/201461377-5ffdd23b-1d02-4e42-84b4-01dd88fd8b3a.png">
+
 
 ### 3. Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
