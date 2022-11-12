@@ -44,15 +44,16 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 
 -Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 
-        - There was no severe change in the present data (cryptocurrency). However, we did have to change the features to deliver a better score than the last two segments 
+    - There was no severe change in the present data (cryptocurrency). However, we did have to change the features to deliver a better score than the last two segments 
+        
 
 - Description of how they have trained the model thus far and any additional training that will take place:
 	
-	- The Scikit-Learning API model showed a high RSME (Root-mean-square deviation) of predictional errors. When using Hyperparameter, the number did improve slightly but not as much as I would like. Several other models could be used: Field Search or Randomized Search.  
+    - The Scikit-Learning API model showed a high RSME (Root-mean-square deviation) of predictional errors. When using Hyperparameter, the number did improve slightly but not as much as I would like. Several other models could be used: Field Search or Randomized Search.  
 
 - Description of current accuracy score
 - 
-<img width="506" alt="Screen Shot 2022-11-11 at 10 45 08 PM" src="https://user-images.githubusercontent.com/106892740/201461377-5ffdd23b-1d02-4e42-84b4-01dd88fd8b3a.png">
+  <img width="506" alt="Screen Shot 2022-11-11 at 10 45 08 PM" src="https://user-images.githubusercontent.com/106892740/201461377-5ffdd23b-1d02-4e42-84b4-01dd88fd8b3a.png">
 
 
 ### 3. Random Forest Regressor:
