@@ -25,7 +25,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Description of how data was split intro training and testing sets:
 	- A split of 80-20 of training-test sets was performed on the date. Three year worth of data was used to train the model and 9 months was used to test the models.
 	
-### Linear Regression:
+### 1. Linear Regression:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: Model process very fast.
 	- Limitations: The accuracy of predictions are lower than other models.
@@ -33,18 +33,18 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 - Description of how the model have been trained thus far, and any additional training that will take place:
 - Description of current accuracy score:
 
-### XGBooster Model:
+### 2. XGBooster Model:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: Highly flexible and faster than Gradient Boosting
 	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
 - Description of how they have trained the model thus far, and any additional training that will take place:
-	- 
+	- Added 
 - Description of current accuracy score
 
 
-### Random Forest Regressor:
+### 3. Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: This model is great for Classification and Regression tasks.
 	- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously 	observed labels. 
@@ -62,15 +62,16 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 	- Model with ANN:
 	<img width="388" alt="image" src="https://user-images.githubusercontent.com/106962921/201403337-2f334fa4-78a8-47cd-b120-a44ccdb08056.png">
 
-### Artificial Neural Network:
+### 4. Artificial Neural Network:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: Highly flexible and faster than Gradient Boosting
 	- Limitations: Data can be very noisy, in which it is unable to understand or interpret meaninglees data correctly
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 	- It appears with the data that was present (cryptocurrency) there was no severe change. However, we did have to change the features to deliver a better score then from the last two segments 
 - Description of how they have trained the model thus far, and any additional training that will take place:
-	- 
+	- Added 
 - Description of current accuracy score
+
 
 ## Database Integration
 ![image](https://user-images.githubusercontent.com/106962921/198487660-16bba9ea-5c3b-4739-bfbc-bb05ca4a1870.png)
