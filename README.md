@@ -55,7 +55,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 ### 3. Random Forest Regressor:
 - Explanation of model choice, including limitations and benefits:
 	- Advantages: This model is great for Classification and Regression tasks.
-	- Limitations: The run-time performance of this model is very slow. Also, it cannot extrapolate and can only make a prediction that is an average of previously observed labels. 
+	- Limitations: It cannot extrapolate and can only make a prediction that is an average of previously observed labels. 
 - Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables):
 	- Added Hyperparameter tuning to the model in hopes to improve the score
 - Description of how they have trained the model thus far, and any additional training that will take place:
@@ -88,7 +88,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 ![image](https://user-images.githubusercontent.com/106962921/198488757-9adccb79-8396-4045-a616-59cd39016f88.png)
 
 ## Dashboard
-The dashboard was built using Tableau Public:https://public.tableau.com/app/profile/richard.pamintuan/viz/Crypto-Forcasting/CryptocurrencyvsMLDashboard?publish=yes
+The dashboard was built using [Tableau Public](https://public.tableau.com/app/profile/richard.pamintuan/viz/Crypto-Forcasting/CryptocurrencyvsMLDashboard?publish=yes)
 
 ## Google Slides Presentation
 The Google Slides Presentation is [here](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
