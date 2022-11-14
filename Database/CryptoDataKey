@@ -1,0 +1,38 @@
+CREATE TABLE asset_details (
+Asset_ID VARCHAR PRIMARY KEY NOT NULL,
+Weight VARCHAR,
+Asset_Name TEXT
+);
+
+CREATE TABLE train (
+Asset_ID VARCHAR,
+timestamp VARCHAR,
+Count VARCHAR,
+Open VARCHAR,
+High VARCHAR,
+Low VARCHAR,
+Close VARCHAR,
+Volume VARCHAR,
+VWAP VARCHAR,
+Target VARCHAR
+);
+
+SELECT * FROM asset_details;
+
+SELECT * FROM train;
+
+SELECT train.timestamp,
+     train.Count,
+     train.Open,
+	 train.High,
+	 train.Low,
+	 train.Close,
+	 train.Volume,
+	 train.VWAP,
+	 train.Target,
+     asset_details.Asset_ID,
+	 asset_details.Weight,
+	 asset_details.Asset_Name
+FROM train
+INNER JOIN asset_details
+ON train.Asset_ID = asset_details.Asset_ID;
