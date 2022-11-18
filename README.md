@@ -88,7 +88,7 @@ Due to dramatic changes in the world financial environment, cryptocurrencies hav
 ![image](https://user-images.githubusercontent.com/106962921/198488757-9adccb79-8396-4045-a616-59cd39016f88.png)
 
 ## Dashboard
-The dashboard was built using [Tableau Public](https://public.tableau.com/app/profile/richard.pamintuan/viz/Crypto-Forcasting/Dashboard2)
+The dashboard was built using [Tableau Public](https://public.tableau.com/app/profile/richard.pamintuan/viz/Crypto-Forcasting/CryptoDashboard?publish=yes)
 
 ## Google Slides Presentation
 The Google Slides Presentation is [here](https://docs.google.com/presentation/d/1R3Lg4sMtYCmoqtfwwtoq2NXgn566m73cyllYO-bAe2E/edit#slide=id.g17bf7b93144_0_70)
